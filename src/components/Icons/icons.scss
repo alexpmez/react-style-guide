@@ -1,0 +1,36 @@
+$gray-dark: rgb(33, 37, 41);
+$gray-dark-1: rgb(93, 92, 92);
+
+  .icons-sec {
+    .card {
+      .icons-sec-item {
+        padding: 1.5rem 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    
+        ul {
+          margin: 0;
+          padding: 0;
+    
+          li, .font-awesome-icons {
+            display: inline-block;
+            font-size: 2rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin: 0.5rem 1em;
+            color: $gray-dark-1;
+          }
+
+          .cmps-commitment {
+            font-size: 2.7rem;
+          }
+        }
+      }
+    }
+    .card-body {
+      border-top: 1px solid rgba(0, 0, 0, 0.125);
+      text-align: left;
+      padding-bottom: 2.5rem;
+    };
+  }

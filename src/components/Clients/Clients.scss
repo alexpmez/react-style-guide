@@ -1,0 +1,96 @@
+.clients-sec {
+  .clients-sec-item {
+    .clients {
+      list-style-type: none;
+      .clients-header {
+        margin-top: 3.5rem;
+        padding-bottom: 1rem;
+        font-weight: 700;
+        font-size: 2rem;
+        text-transform: capitalize;
+        color: rgb(61, 69, 73);
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        &:after {
+          content: '';
+          margin-top: 1rem;
+          height: 1px;
+          width: 90%;
+          padding: .18rem;
+          background: rgb(205, 211, 217);
+          display: table;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      .clients-logo, .clients-backg {
+        display: inline-block;
+      }
+
+      .clients-backg {
+        padding: 0;
+      }
+      .clients-logo {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    //Remove the top margin of the first clint header
+    .clients:first-child {
+      .clients-header {
+        margin-top: 0;
+      }
+    }
+    .client-fido {
+      .clients-header {
+        text-transform: lowercase;
+      }
+      .clients-logo {
+        img {
+          max-width: 10rem;
+        }
+      }
+    }
+
+    .client-rogers {
+      .clients-logo {
+        img {
+          max-width: 13rem;
+        }
+      }
+    }
+
+    .client-m1 {
+      .clients-logo {
+        img {
+          max-width: 13rem;
+        }
+      }
+    }
+
+    .client-td {
+      .clients-header {
+        text-transform: uppercase;
+      }
+      .clients-logo {
+        img {
+          max-width: 6rem;
+        }
+      }
+    }
+
+    .client-gbt {
+      .clients-header {
+        text-transform: uppercase;
+      }
+      .clients-logo {
+        img {
+          max-width: 22rem;
+        }
+      }
+    }
+
+  }
+}

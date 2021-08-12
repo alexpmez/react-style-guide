@@ -1,0 +1,289 @@
+{
+  "branding": {
+    "orbit-logos": [ "logo", "second-logo", "logo-vertical", "logo-white" ],
+    "card-text": {
+      "logo": "Horizontal logo on black background",
+      "second-logo": "Horizontal logo on white background.",
+      "logo-vertical": "Vertical logo on black background.",
+      "logo-white": "Horizontal white logo on black background."
+    }
+  },
+  "clients": ["fido", "gbt", "m1", "rogers", "td"],
+
+  "buttons": [
+    {
+      "with-icon": false,
+      "btns": ["primary", "secondary", "outline"]
+    },
+    {
+      "with-icon": true,
+      "btns": ["primary", "primary"],
+      "btns-icons": ["observation", "commitment"],
+      "sub-header": "Buttons with Icons"
+    }
+  ],
+
+  "tables": {
+    "icons": ["angle-down", "angle-up"],
+    "header": [
+      {
+        "label": "#",
+        "iconIndex": 0
+      },
+      {
+        "label": "first",
+        "iconIndex": 0
+      },
+      {
+        "label": "last",
+        "iconIndex": 0
+      },
+      {
+        "label": "handle",
+        "iconIndex": 0
+      }
+    ],
+    "rows": [
+      {"id": 1, "first": "mark", "last": "otto", "handle": "fat"},
+      {"id": 2, "first": "jacob", "last": "thronton", "handle": "mdo"},
+      {"id": 3, "first": "larry the bird", "last": "twitter", "handle": "Sum"}
+    ]
+  },
+
+  "colors": [
+    {
+      "name": "picton blue",
+      "rgb-values": [71, 175, 223],
+      "color-variable": "$picton-blue"
+    },
+    {
+      "name": "cornflower blue",
+      "rgb-values": [72, 133, 237],
+      "color-variable": "$cornflower-blue"
+    },
+    {
+      "name": "sushi",
+      "rgb-values": [120, 167, 70],
+      "color-variable": "$sushi"
+    },
+    {
+      "name": "crete",
+      "rgb-values": [91, 128, 52],
+      "color-variable": "$crete"
+    },
+    {
+      "name": "yellow orange",
+      "rgb-values": [255, 173, 64],
+      "color-variable": "$yellow-orange"
+    },
+    {
+      "name": "cinnabar",
+      "rgb-values": [227, 66, 52],
+      "color-variable": "$cinnabar"
+    },
+    {
+      "name": "punch",
+      "rgb-values": [222, 63, 61],
+      "color-variable": "$punch"
+    },
+    {
+      "name": "alabaster",
+      "rgb-values": [251, 251, 251],
+      "color-variable": "$alabaster"
+    },
+    {
+      "name": "aqua haze",
+      "rgb-values": [240, 244, 247],
+      "color-variable": "$aqua-haze"
+    },
+    {
+      "name": "silver light",
+      "rgb-values": [242, 242, 242],
+      "color-variable": "$silver-light"
+    },
+    {
+      "name": "gallery",
+      "rgb-values": [235, 234, 234],
+      "color-variable": "$gallery"
+    },
+    {
+      "name": "ebb",
+      "rgb-values": [232, 225, 225],
+      "color-variable": "$ebb"
+    },
+    {
+      "name": "light gray",
+      "rgb-values": [221, 221, 221],
+      "color-variable": "$light-gray"
+    },
+    {
+      "name": "silver",
+      "rgb-values": [204, 204, 204],
+      "color-variable": "$silver"
+    },
+    {
+      "name": "silver 1",
+      "rgb-values": [189, 189, 189],
+      "color-variable": "$silver-1"
+    },
+    {
+      "name": "gray chateau",
+      "rgb-values": [159, 167, 176],
+      "color-variable": "$gray-chateau"
+    },
+    {
+      "name": "silver chalice",
+      "rgb-values": [167, 167, 167],
+      "color-variable": "$silver-chalice"
+    },
+    {
+      "name": "gray 1",
+      "rgb-values": [140, 140, 140],
+      "color-variable": "$gray-1"
+    },
+    {
+      "name": "gray",
+      "rgb-values": [128, 128, 128],
+      "color-variable": "$gray"
+    },
+    {
+      "name": "tundora",
+      "rgb-values": [76, 76, 76],
+      "color-variable": "$tundora"
+    },
+    {
+      "name": "mako",
+      "rgb-values": [61, 69, 73],
+      "color-variable": "$mako"
+    }
+  ],
+
+  "forms": {
+    "alert-messages": ["success", "info", "warning", "danger"],
+    "alerts": [
+      {
+        "stage": "success",
+        "class": "primary"
+      },
+      {
+        "stage": "info",
+        "class": "secondary"
+      },
+      {
+        "stage": "warning",
+        "class": "warning"
+      },
+      {
+        "stage": "danger",
+        "class": "danger"
+      }
+    ],
+    "btns": [
+      {
+        "first-message": "primary",
+        "second-message": "action"
+      },
+      {
+        "first-message": "secondary",
+        "second-message": "action"
+      }
+    ]
+  },
+
+  "custom-icons": {
+    "icons": ["down-arrow", "angle-down", "sliders", "commitment", "share", "double", "phone", "circle-chart"],
+    "card-text": "Custom Icons are added by using the cmps-icon-class-name, that can be found in scss/custom-font.scss <li class='cmps-commitment'></li>"
+  },
+
+  "font-awesome-icons": {
+    "icons": ["redo", "folder", "file-alt", "file", "chart-area", "chart-bar", "search", "cloud-download-alt"],
+    "card-text": "Fontawesome icons are add just as per fontawesome website."
+  },
+
+  "popups-modals": [
+    {
+      "title": "Modal Title",
+      "content": "Modal content goes here",
+      "button-first": {
+        "copy": "save changes",
+        "color": "$green"
+      }
+    },
+    {
+      "title": "Modal Title",
+      "content": "Modal content goes here",
+      "button-first": {
+        "copy": "close",
+        "color": "$gray"
+      }
+    }
+  ],
+
+  "nav-items": [
+    {
+      "name": "popups/modals",
+      "subheader": "Small Modal",
+      "subheader2": "Large Modal",
+      "path": "Popups Modals",
+      "id": 7
+    },
+    {
+      "name": "tables",
+      "subheader": "Standard Table",
+      "path": "tables",
+      "id": 9
+    },
+    {
+      "name": "colors",
+      "subheader": "Application Colors",
+      "path": "colors",
+      "id": 2
+    },
+    {
+      "name": "buttons",
+      "subheader": "Buttons without Icons",
+      "path": "buttons",
+      "id": 4
+    },
+    {
+      "name": "home",
+      "header": "Orbit UI Style Guide",
+      "path": "",
+      "id": 0
+    },
+    {
+      "name": "forms",
+      "header2": "alert",
+      "subheader": "COMPAS Standard Form",
+      "subheader2": "how to display alerts messages",
+      "path": "forms",
+      "id": 8
+    },
+    {
+      "name": "branding",
+      "subheader": "Orbit Logo",
+      "path": "branding",
+      "id": 1
+    },
+    {
+      "name": "clients",
+      "subheader": "Client's logos and login page backgrounds",
+      "path": "clients",
+      "id": 6,
+      "clients": ["rogers", "td", "m1", "gbt", "fido"]
+    },
+    {
+      "name": "icons",
+      "subheader": "Custom Fonts Icons",
+      "subheader2": "Font Awesome Icons",
+      "path": "icons",
+      "id": 5
+    },
+    {
+      "name": "typography",
+      "subheader": "COMPAS uses Lato as a font.",
+      "path": "typography",
+      "id": 3
+    }
+  ]
+}

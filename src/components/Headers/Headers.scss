@@ -1,0 +1,26 @@
+.header-sec {
+  margin-bottom: 3rem;
+  
+  .header {
+    font-size: 2rem;
+    font-family: 'merriweather', serif;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    color: rgb(61, 69, 73);
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .headers-line {
+      background: rgb(205, 211, 217);
+      height: .33rem;
+      width: 85%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

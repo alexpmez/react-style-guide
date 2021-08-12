@@ -1,0 +1,73 @@
+@import './variables.scss';
+@import './fonts';
+@import './custom-font.scss';
+@import '../components/Buttons/Buttons.scss';
+
+//colors
+$green: rgb(120, 167, 70);
+$green-dark: rgb(91, 128, 52);
+$gray: rgb(76, 76, 76);
+$gray-lighter: rgb(249, 249, 249);
+$gray-light: rgb(204, 204, 204);
+$gray-dark: rgb(33, 37, 41);
+
+body {
+  background-color: $gray-lighter !important;
+
+  img {
+    width: 100%;
+  }
+}
+
+.main {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2.5rem 0 50px 0;
+}
+
+.App {
+  text-align: center;
+
+  .sub-header, .second-sub-header {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    color: rgb(112, 110, 110);
+  }
+
+  .second-sub-header {
+    margin-top: 2.8rem;
+  }
+
+  .page-title {
+    font-family: lato;
+    font-weight: 200;
+    text-align: center
+  }
+
+  @media only screen and (min-width: 800px) {
+    .page-title {
+      font-size: 2.3rem;
+      margin: 0 2em 2em 2em;
+     // margin: 1.5em 2em 2em 2em;
+    }
+  }
+
+  // @media only screen and (min-width: 1200px) {
+  //   .page-title {
+  //     font-size: 4rem;
+  //   }
+  // }
+  .modal-content {
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0em;
+  }
+
+  .btn  {
+    text-transform: capitalize;
+  }
+
+}
+

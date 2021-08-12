@@ -1,0 +1,14 @@
+.tables-sec {
+    .cmps-angle-down, .cmps-angle-up {
+        cursor: pointer;
+        margin-left: 0.3rem;
+        vertical-align: middle;
+        font-size: 0.8rem;
+        color: rgb(140, 140, 140);
+    }
+
+    .table thead th {
+        border-bottom-width: 1px;
+        color: rgb(76, 76, 76);
+    }
+}

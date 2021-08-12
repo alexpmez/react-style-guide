@@ -1,0 +1,46 @@
+$green: rgb(120, 167, 70);
+$green-dark: rgb(91, 128, 52);
+$gray: rgb(76, 76, 76);
+$gray-light: rgb(204, 204, 204);
+$gray-dark: rgb(33, 37, 41);
+
+.modals {
+  .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: $gray;
+    text-transform: capitalize;
+  }
+
+  .modal-body {
+    font-size: 1rem;
+    color: #6c6c6c;
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  .btn {
+    display: inline-flex;
+    justify-items: center;
+    margin: .5rem;
+    font-size: 0.9rem;
+    padding: 0.9rem 2.5rem;
+    border: none;
+    border-radius: 0;
+    text-transform: capitalize;
+  }
+  .btn.btn-primary {
+    background-color: $green;
+    &:hover {
+      background: $green-dark;
+    }
+  }
+  .btn.btn-secondary {
+    background-color: $gray;
+    &:hover {
+      color: $gray;
+      background-color: $gray-light;
+    }
+  }
+}

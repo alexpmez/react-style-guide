@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+$custom-font-path: '../assets/fonts/custom-font/';
+
+@font-face {
+  font-family: "custom-font";
+  src:url($custom-font-path + "custom-font.ttf");
+  src:url($custom-font-path + "custom-font.ttf") format("truetype"),
+      url($custom-font-path + "custom-font.woff") format("woff"),
+      url($custom-font-path + "custom-font.svg#custom-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "custom-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="cmps-"]:before,
+[class*=" cmps-"]:before {
+  font-family: "custom-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cmps-angle-down:before {
+  content: "\67";
+}
+.cmps-double:before {
+  content: "\63";
+}
+.cmps-down-arrow:before {
+  content: "\65";
+}
+.cmps-up-arrow:before {
+  content: "\66";
+}
+.cmps-commitment-circular:before {
+  content: "\69";
+}
+.cmps-education:before {
+  content: "\6c";
+}
+.cmps-share:before {
+  content: "\6d";
+}
+.cmps-lock:before {
+  content: "\6e";
+}
+.cmps-checked:before {
+  content: "\6f";
+}
+.cmps-close:before {
+  content: "\71";
+}
+.cmps-link:before {
+  content: "\72";
+}
+.cmps-calendar:before {
+  content: "\64";
+}
+.cmps-sliders:before {
+  content: "\68";
+}
+.cmps-publish:before {
+  content: "\73";
+}
+.cmps-trash:before {
+  content: "\74";
+}
+.cmps-gear:before {
+  content: "\75";
+}
+.cmps-envelope:before {
+  content: "\76";
+}
+.cmps-phone:before {
+  content: "\77";
+}
+.cmps-single:before {
+  content: "\6a";
+}
+.cmps-observation-circular:before {
+  content: "\6b";
+}
+.cmps-arrow-circle:before {
+  content: "\78";
+}
+.cmps-circle-chart:before {
+  content: "\61";
+}
+.cmps-observation:before {
+  content: "\62";
+}
+.cmps-commitment:before {
+  content: "\79";
+}
+.cmps-exclamation:before {
+  content: "\7a";
+}
+.cmps-exclamation-1:before {
+  content: "\41";
+}
+.cmps-exclamation-2:before {
+  content: "\42";
+}
+.cmps-commiment-icon:before {
+  content: "\43";
+}
+.cmps-cogs:before {
+  content: "\44";
+}
+.cmps-wrench:before {
+  content: "\45";
+}
+.cmps-cross:before {
+  content: "\47";
+}
+.cmps-circle-plus:before {
+  content: "\4b";
+}
+.cmps-pencil:before {
+  content: "\70";
+}
+.cmps-curve-arrow:before {
+  content: "\48";
+}
+.cmps-file:before {
+  content: "\49";
+}
+.cmps-folder:before {
+  content: "\4a";
+}
+.cmps-star:before {
+  content: "\4c";
+}
+.cmps-angle-up:before {
+  content: "\46";
+}
+.cmps-analytics-chart-graph:before {
+  content: "\4e";
+}
+.cmps-link-external:before {
+  content: "\4f";
+}
+.cmps-user-circle:before {
+  content: "\51";
+}
+.cmps-plus:before {
+  content: "\4d";
+}
+.cmps-minus:before {
+  content: "\50";
+}
+.cmps-star-outline:before {
+  content: "\52";
+}
+
+.cmps-circle-close:before {
+  content: "\f058";
+}
+
+.cmps-warning:before {
+  content: "\f059";
+}

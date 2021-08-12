@@ -1,0 +1,71 @@
+$gray-dark: rgb(76, 76, 76);
+$gray-dark-1:rgb(88, 88, 91);
+
+.color-sec {
+  .cards {
+    width: 100%;
+    max-width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    .colors-instructions {
+      text-align: left;
+      padding: 0rem .5rem 1rem .5rem;
+    }
+
+    .card {
+      display: inline-block;
+      padding: .5rem .5rem .1rem .5rem;
+      width: 100%;
+      margin: 0.4rem;
+      max-width: 10rem;
+      border-color: rgba(125, 125, 125, 0.125);
+      .card-body {
+        padding: 0;
+        .title {
+          margin-bottom: .3rem;
+          font-size: .8rem;
+          font-weight: 700;
+          color: $gray-dark;
+          text-transform: capitalize;
+        }
+        .color-swatch {
+          padding: 50%;
+          position: relative;
+
+          .right-panel, .left-panel {
+            position: absolute;
+            bottom: 0;
+            height: 20%;
+            width: 50%;
+          }
+
+          .left-panel {
+            left: 0;
+            //background-color: orange;
+          }
+
+          .right-panel {
+            right: 0;
+           // background-color: #bd8cff;
+          }
+        }
+      }
+    }
+
+    .color-swatch-code, .color-variable {
+      color: $gray-dark-1;
+    }
+    .color-swatch-code {
+      font-size: 0.9rem;
+      padding-top: 0.4rem;
+      margin-bottom: 0;
+    }
+    .color-variable {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+  }
+
+}

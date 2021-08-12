@@ -1,0 +1,44 @@
+//====== Colors =======\\
+
+//----source colors-----\\
+$alabaster: rgb(251, 251, 251);
+$aqua-haze: rgb(240, 244, 247);
+$punch: rgb(222, 63, 61);
+$crete: rgb(91, 128, 52);
+$ebb: rgb(232, 225, 225);
+$gallery: rgb(235, 234, 234);
+$gray: rgb(128, 128, 128);
+$gray-1: rgb(140, 140, 140);
+$gray-chateau: rgb(159, 167, 176);
+$silver: rgb(204, 204, 204);
+$silver-1: rgb(189, 189, 189);
+$silver-chalice: rgb(167, 167, 167);
+$silver-light: rgb(242, 242, 242);
+$sushi: rgb(120, 167, 70);
+$tundora: rgb(76, 76, 76);
+$yellow-orange: rgb(255, 173, 64);
+$cornflower-blue: rgb(72, 133, 237);
+$light-gray: rgb(221, 221, 221);
+
+//---- app color var ----\\
+$blue: $cornflower-blue;
+$green: $sushi;
+$green-dark: $crete;
+$gray: $gray;
+$gray-1: $gray-chateau;
+$gray-2: $silver-chalice;
+$gray-dark: $tundora;
+$gray-light: $aqua-haze;
+$gray-light-1: $silver;
+$gray-light-2: $ebb;
+$gray-light-3: $alabaster;
+$gray-light-4: $silver-1;
+$gray-light-5: $gallery;
+$gray-light-6: $gray-chateau;
+$gray-light-transparent: $silver-light;
+$gray-shadow: $light-gray;
+$red: $punch;
+$yellow: $yellow-orange;
+
+$tooltip-color: $gray-dark;
+$tooltip-bg-color: $gray-light-5;
